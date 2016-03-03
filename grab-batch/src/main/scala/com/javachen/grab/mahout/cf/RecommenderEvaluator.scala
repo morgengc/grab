@@ -81,7 +81,7 @@ object RecommenderEvaluator {
               argmap("eval_fract").toDouble)
             printResult(neighborhood, similarity, stats)
           } catch {
-            case e => {
+            case e : Throwable => {
               println("Exception caught: " + e.getMessage)
             }
           }
@@ -99,7 +99,7 @@ object RecommenderEvaluator {
               argmap("eval_fract").toDouble)
             printResult(null, similarity, stats)
           } catch {
-            case e => {
+            case e : Throwable => {
               println("Exception caught: " + e.getMessage)
             }
           }

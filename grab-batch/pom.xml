@@ -90,6 +90,12 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+
+		<dependency>
+			<groupId>org.jblas</groupId>
+			<artifactId>jblas</artifactId>
+			<scope>provided</scope>
+		</dependency>
     </dependencies>
 
     <build>
