@@ -8,7 +8,7 @@
 
 - grab-common：基础代码
 - grab-batch：批处理任务，一天运行一次
-- grab-web：web端，提供Restfull接口获取推荐结果
+- grab-web：web端，提供Restfull接口获取推荐结果(联系原作者，确认还未实现)
 
 # 参考
 
